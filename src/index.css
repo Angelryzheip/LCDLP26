@@ -15,8 +15,8 @@ All colors MUST be HSL.
     --bg-gradient-via: 255 50% 93%;
     --bg-gradient-to: 270 45% 94%;
 
-    --card: 220 18% 11%;
-    --card-foreground: 0 0% 95%;
+    --card: 240 25% 98%;
+    --card-foreground: 230 25% 12%;
 
     --popover: 220 18% 11%;
     --popover-foreground: 0 0% 95%;
