@@ -101,5 +101,23 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Barlow', 'Barlow Condensed', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-fire {
+    background: linear-gradient(135deg, hsl(var(--fire-red)), hsl(var(--fire-orange)), hsl(var(--primary)));
+  }
+  .gradient-pumas {
+    background: linear-gradient(135deg, hsl(var(--pumas-blue)), hsl(var(--pumas-gold)));
+  }
+  .gradient-cruzazul {
+    background: linear-gradient(135deg, hsl(var(--cruzazul-blue)), hsl(var(--cruzazul-light)));
+  }
+  .text-gradient-fire {
+    background: linear-gradient(90deg, hsl(var(--fire-red)), hsl(var(--fire-orange)), hsl(var(--primary)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
