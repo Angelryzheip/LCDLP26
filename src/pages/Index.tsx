@@ -48,7 +48,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
         <div className="absolute inset-0 flex items-end">
           <div className="container mx-auto px-4 pb-10 md:pb-16 max-w-4xl">
-            <span className="inline-block gradient-fire text-background font-bold text-xs md:text-sm uppercase tracking-widest px-3 py-1 rounded mb-4">
+            <span className="inline-block gradient-fire text-primary-foreground font-bold text-xs md:text-sm uppercase tracking-widest px-3 py-1 rounded mb-4">
               🔥 Liga MX — Clásico de la Obsesión
             </span>
             <h1 className="font-['Barlow_Condensed'] font-black text-4xl md:text-6xl lg:text-7xl uppercase leading-[0.95] mb-4">
