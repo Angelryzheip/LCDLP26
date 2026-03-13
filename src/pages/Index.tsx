@@ -136,11 +136,11 @@ const Index = () => {
         </section>
 
         {/* En juego */}
-        <section className="gradient-fire rounded-xl p-6 md:p-10">
-          <h2 className="font-['Barlow_Condensed'] font-black text-2xl md:text-3xl uppercase text-background mb-4">
+        <section className="gradient-fire rounded-xl p-6 md:p-10 text-primary-foreground">
+          <h2 className="font-['Barlow_Condensed'] font-black text-2xl md:text-3xl uppercase mb-4">
             🏆 Lo que está en juego
           </h2>
-          <p className="text-background/90 mb-4">
+          <p className="opacity-90 mb-4">
             Más allá de los puntos en la tabla, este encuentro representa orgullo, historia y rivalidad.
           </p>
           <ul className="space-y-2">
@@ -149,7 +149,7 @@ const Index = () => {
               "Dar un golpe anímico en el torneo",
               "Reforzar la confianza del equipo",
             ].map((item, i) => (
-              <li key={i} className="flex items-center gap-2 text-background font-semibold">
+              <li key={i} className="flex items-center gap-2 font-semibold">
                 <span>✓</span> {item}
               </li>
             ))}
